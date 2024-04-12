@@ -19,7 +19,7 @@ export default function SmartStatistics ({auth}) {
         showRegression: false,
         showBynoPoisson: false,
         showHypoTwo: false,
-        showHypoOne: false
+        showHypoOne: false,
         // typename: ""
     });
 

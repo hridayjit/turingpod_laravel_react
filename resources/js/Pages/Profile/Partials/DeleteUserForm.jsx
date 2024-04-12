@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import Button from '@/Components/Button';
+import DangerButton from '@/Components/DangerButton';
 import InputError from '@/Components/InputError';
 import InputLabel from '@/Components/InputLabel';
 import Modal from '@/Components/Modal';
