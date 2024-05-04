@@ -1,5 +1,5 @@
 import { React } from 'react';
-import Button from '@/Components/Button'; 
+import DangerButton from '@/Components/DangerButton'; 
 
 export default function Content(props) {
     return (

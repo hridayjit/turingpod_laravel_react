@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SmartStatistics\HypothesisOneController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -56,6 +57,8 @@ Route::get('/blogs', function () {
 Route::get('/query_recommend', function () {
     return Inertia::render('Products/QueryRecommend');
 })->name('query_recommend');
+
+Route::post('/getHypoOne', [HypothesisOneController::class, 'getResult'])->name('getHypoOne');
 
 
 // Route::post('Api/statistics', [StatisticsController::class, 'get'])->name('statistics');
