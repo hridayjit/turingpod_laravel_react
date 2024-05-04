@@ -10,6 +10,7 @@ import StatBynoPoissonView from './ProductViews/SmartStatisticsView/StatBynoPois
 import StatHypoTwoView from './ProductViews/SmartStatisticsView/StatHypoTwoView';
 import StatHypoOneView from './ProductViews/SmartStatisticsView/StatHypoOneView';
 import { useEffect } from 'react';
+import '../../../css/preview.css';
 
 export default function SmartStatistics ({auth}) {
     const { data, setData, post, processing, errors, reset } = useForm({
